@@ -32,6 +32,10 @@
     </form>
 
     <script>
+      function metersToFeetConverter(feet) {
+        feet = parseFloat(feet)
+        document.getElementById("outputMeters").innerHTML = 3.279 * feet
+      }
       function metersToFeetConverter(meter) {
         meter = parseFloat(meter)
         document.getElementById("outputFeet").innerHTML = 3.279 * meter
